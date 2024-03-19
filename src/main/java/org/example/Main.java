@@ -18,10 +18,10 @@ public class Main {
         map.computeIfPresent(list, (k, v) -> v + 1);
         int[] nums1 = {2, 4, 6};
         int k = 58;
-        String s = "aec";
+        String s = "aec*";
         String t = "abcde";
 
-        System.out.println(EqualRowAndColumnPairs.equalPairs(nums));
+        System.out.println(RemovingStarsFromAString.removeStars(s));
     }
 
 
