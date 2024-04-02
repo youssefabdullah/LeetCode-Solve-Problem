@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[][] nums = {{3,1,2,2},{1,4,4,5},{2,4,2,2},{2,4,2,2}};
+        int[] nums = {1,2,-5};
         Map<List<Integer>, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         List<List<Integer>> list2 = new ArrayList<>();
@@ -21,7 +21,11 @@ public class Main {
         String s = "aec*";
         String t = "abcde";
 
-        System.out.println(RemovingStarsFromAString.removeStars(s));
+//        for (int x:
+//             AsteroidCollision.asteroidCollision(nums)) {
+//            System.out.println(x);
+//        }
+        System.out.println(DecodeString.decodeString("100[leetcode]"));
     }
 
 
